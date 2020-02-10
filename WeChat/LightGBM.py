@@ -109,7 +109,7 @@ is_training_metric = true
 max_bin = 255
 
 #训练数据地址
-data = /Users/shuubiasahi/Documents/githup/LightGBM/examples/binary_classification/binary.train
+data = '/Users/shuubiasahi/Documents/githup/LightGBM/examples/binary_classification/binary.train'
 
 #测试数据
 #valid_data = binary.test
@@ -158,15 +158,15 @@ use_two_round_loading = false
 is_save_binary_file = false
 
 # 模型输出文件
-output_model = /Users/shuubiasahi/Documents/githup/LightGBM/examples/binary_classification/LightGBM_model.txt
-machine_list_file = /Users/shuubiasahi/Documents/githup/LightGBM/examples/binary_classification/
+output_model = '/Users/shuubiasahi/Documents/githup/LightGBM/examples/binary_classification/LightGBM_model.txt'
+machine_list_file = '/Users/shuubiasahi/Documents/githup/LightGBM/examples/binary_classification/'
 
 # end
 
 
 
 #模型训练
-./lightgbm config=train.conf
+#./lightgbm config=train.conf
 
 
 
